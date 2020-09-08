@@ -5,7 +5,7 @@ fs = require 'fs'
 gulp = require 'gulp'
 coffee = require 'gulp-coffee'
 del = require 'del'
-{log,colors} = require 'gulp-util'
+{log, colors} = require 'gulp-util'
 
 # compile `index.coffee` and `lib/*.coffee` files
 gulp.task 'coffee', ->

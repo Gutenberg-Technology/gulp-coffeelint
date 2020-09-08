@@ -1,77 +1,134 @@
 {
-    "indentation": {
-        "value": 4
-    },
-    "use_strict": {
-        "requireGlobal": true,
-        "module": "coffeelint-use-strict"
-    },
-    "braces_spacing": {
+    "coffeescript_error": {
         "level": "error"
     },
-    "ensure_comprehensions": {
-      "level": "error"
+    "arrow_spacing": {
+        "name": "arrow_spacing",
+        "level": "warn"
     },
-    "no_empty_functions": {
-      "level": "error"
-    },
-    "prefer_english_operator": {
+    "no_tabs": {
+        "name": "no_tabs",
         "level": "error"
-    },
-    "line_endings": {
-        "level": "error",
-        "value": "unix"
     },
     "no_trailing_whitespace": {
         "name": "no_trailing_whitespace",
-        "level": "error",
+        "level": "warn",
         "allowed_in_comments": false,
-        "allowed_in_empty_lines": false
+        "allowed_in_empty_lines": true
+    },
+    "max_line_length": {
+        "name": "max_line_length",
+        "value": 160,
+        "level": "ignore",
+        "limitComments": false
+    },
+    "line_endings": {
+        "name": "line_endings",
+        "level": "ignore",
+        "value": "unix"
+    },
+    "no_trailing_semicolons": {
+        "name": "no_trailing_semicolons",
+        "level": "error"
+    },
+    "indentation": {
+        "name": "indentation",
+        "value": 4,
+        "level": "error"
+    },
+    "camel_case_classes": {
+        "name": "camel_case_classes",
+        "level": "error"
     },
     "colon_assignment_spacing": {
         "name": "colon_assignment_spacing",
-        "level": "error",
+        "level": "warn",
         "spacing": {
             "left": 0,
             "right": 1
         }
     },
-    "space_operators": {
+    "no_implicit_braces": {
+        "name": "no_implicit_braces",
+        "level": "ignore",
+        "strict": true
+    },
+    "no_plusplus": {
+        "name": "no_plusplus",
+        "level": "ignore"
+    },
+    "no_throwing_strings": {
+        "name": "no_throwing_strings",
         "level": "error"
     },
-    "newlines_after_classes": {
-        "value": 3,
-        "level": "error"
+    "no_backticks": {
+        "name": "no_backticks",
+        "level": "ignore"
+    },
+    "no_implicit_parens": {
+        "name": "no_implicit_parens",
+        "level": "ignore"
+    },
+    "no_empty_param_list": {
+        "name": "no_empty_param_list",
+        "level": "warn"
     },
     "no_stand_alone_at": {
-        "level": "error"
+        "name": "no_stand_alone_at",
+        "level": "warn"
     },
-    "arrow_spacing": {
-        "level": "error"
+    "space_operators": {
+        "name": "space_operators",
+        "level": "warn"
     },
-    "cyclomatic_complexity": {
-        "value": "12",
+    "duplicate_key": {
+        "name": "duplicate_key",
         "level": "error"
     },
     "empty_constructor_needs_parens": {
-        "level": "error"
+        "name": "empty_constructor_needs_parens",
+        "level": "ignore"
     },
-    "no_empty_param_list": {
-        "level": "error"
+    "cyclomatic_complexity": {
+        "name": "cyclomatic_complexity",
+        "value": 10,
+        "level": "ignore"
+    },
+    "newlines_after_classes": {
+        "name": "newlines_after_classes",
+        "value": 3,
+        "level": "ignore"
     },
     "no_unnecessary_fat_arrows": {
+        "name": "no_unnecessary_fat_arrows",
+        "level": "warn"
+    },
+    "missing_fat_arrows": {
+        "name": "missing_fat_arrows",
+        "level": "ignore"
+    },
+    "non_empty_constructor_needs_parens": {
+        "name": "non_empty_constructor_needs_parens",
+        "level": "ignore"
+    },
+    "eol_last": {
+        "name": "eol_last",
+        "level": "warn"
+    },
+    "spacing_after_comma": {
+        "name": "spacing_after_comma",
+        "level": "warn"
+    },
+    "prefer_english_operator": {
+        "name": "prefer_english_operator",
+        "level": "warn"
+    },
+    "no_nested_string_interpolation": {
+        "name": "no_nested_string_interpolation",
         "level": "error"
     },
-    "no_unnecessary_double_quotes": {
-        "name": "no_unnecessary_double_quotes",
-        "level": "error"
-    },
-    "no_debugger": {
-        "name": "no_debugger",
-        "level": "error"
-    },
-    "no_interpolation_in_single_quotes": {
-        "name": "no_interpolation_in_single_quotes",
-        "level": "error"
+    "ensure_comprehensions": {
+        "name": "ensure_comprehensions",
+        "level": "warn"
     }
 }

@@ -174,7 +174,7 @@ describe 'gulp-coffeelint', ->
             stream.write fakeFile2
             stream.end()
 
-    describe 'running coffeelint.reporter(\'raw\')', ->
+    xdescribe 'running coffeelint.reporter(\'raw\')', ->
         coffeelint = null
         publishStub = null
         spiedReporter = null
@@ -319,7 +319,7 @@ describe 'gulp-coffeelint', ->
             stream.write fakeFile2
             stream.end()
 
-    describe 'running coffeelint.reporter(\'coffeelint/lib/reporters/raw\')', ->
+    xdescribe 'running coffeelint.reporter(\'coffeelint/lib/reporters/raw\')', ->
         coffeelint = null
         publishStub = null
         spiedReporter = null
